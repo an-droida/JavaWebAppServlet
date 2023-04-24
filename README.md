@@ -1,0 +1,11 @@
+# JavaWebAppServlet
+
+```sql
+CREATE TABLE posts (
+  id INT NOT NULL AUTO_INCREMENT,
+  title VARCHAR(255) NOT NULL,
+  author VARCHAR(255) NOT NULL,
+  content TEXT,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id)
+);
